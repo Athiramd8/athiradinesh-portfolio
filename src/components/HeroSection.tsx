@@ -1,15 +1,9 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, FileText, Linkedin, Mail } from "lucide-react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-
 const HeroSection: React.FC = () => {
-  return (
-    <section
-      id="home"
-      className="relative min-h-screen flex items-center pt-20 overflow-hidden"
-    >
+  return <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Background elements */}
       <div className="absolute inset-0 bg-gradient-to-b from-dark-purple/40 to-transparent z-0"></div>
       
@@ -25,9 +19,7 @@ const HeroSection: React.FC = () => {
               Hi, I'm{" "}
               <span className="text-accent">Athira Dinesh Mangaparambil</span>
             </h1>
-            <h2 className="text-xl md:text-2xl text-muted-foreground mb-6">
-              ETL Developer & Aspiring Cybersecurity Analyst | Building Scalable Pipelines &amp; Strengthening Digital Security
-            </h2>
+            <h2 className="text-xl md:text-2xl text-muted-foreground mb-6"> Building Scalable Pipelines &amp; Strengthening Digital Security</h2>
             <p className="text-lg mb-8 max-w-2xl">
               Experienced in building scalable ETL pipelines, performing data
               analysis, and developing secure data systems.
@@ -40,19 +32,11 @@ const HeroSection: React.FC = () => {
               </Button>
               <Button variant="outline" className="flex items-center gap-2">
                 <Linkedin className="h-4 w-4" />
-                <a
-                  href="https://linkedin.com/in/athira-dinesh"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="https://linkedin.com/in/athira-dinesh" target="_blank" rel="noopener noreferrer">
                   Connect on LinkedIn
                 </a>
               </Button>
-              <Button
-                variant="secondary"
-                className="flex items-center gap-2"
-                asChild
-              >
+              <Button variant="secondary" className="flex items-center gap-2" asChild>
                 <a href="#contact">
                   <Mail className="h-4 w-4" />
                   Contact Me
@@ -69,11 +53,7 @@ const HeroSection: React.FC = () => {
               <div className="absolute inset-0 rounded-full bg-accent/20 animate-pulse"></div>
               <div className="absolute inset-2 rounded-full overflow-hidden border-2 border-accent/30">
                 <Avatar className="w-full h-full">
-                  <AvatarImage 
-                    src="https://i.postimg.cc/hPb0BVyt/My-photo.jpg" 
-                    alt="Athira Dinesh Mangaparambil" 
-                    className="object-cover w-full h-full"
-                  />
+                  <AvatarImage src="https://i.postimg.cc/hPb0BVyt/My-photo.jpg" alt="Athira Dinesh Mangaparambil" className="object-cover w-full h-full" />
                   <AvatarFallback className="text-6xl font-bold">A</AvatarFallback>
                 </Avatar>
               </div>
@@ -87,29 +67,19 @@ const HeroSection: React.FC = () => {
         
         {/* Tech icons or decorative elements could go here */}
         <div className="mt-16 md:mt-24 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto opacity-70">
-          {['ETL', 'Python', 'AWS', 'Security'].map((tech, index) => (
-            <div 
-              key={index} 
-              className="text-center px-4 py-2 rounded-lg bg-background/50 border border-accent/20"
-            >
+          {['ETL', 'Python', 'AWS', 'Security'].map((tech, index) => <div key={index} className="text-center px-4 py-2 rounded-lg bg-background/50 border border-accent/20">
               <span className="text-sm font-medium">{tech}</span>
-            </div>
-          ))}
+            </div>)}
         </div>
       </div>
       
       {/* Scroll indicator */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
-        <a
-          href="#about"
-          className="flex flex-col items-center text-muted-foreground hover:text-accent transition-colors"
-        >
+        <a href="#about" className="flex flex-col items-center text-muted-foreground hover:text-accent transition-colors">
           <span className="text-sm mb-2">Scroll Down</span>
           <ArrowRight className="h-5 w-5 rotate-90" />
         </a>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
