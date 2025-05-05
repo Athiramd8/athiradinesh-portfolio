@@ -27,6 +27,9 @@ jobs:
       - name: Build
         run: npm run build
         
+      - name: Create CNAME file 🌐
+        run: echo "www.athiradinesh.me" > dist/CNAME
+        
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
