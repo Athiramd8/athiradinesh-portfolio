@@ -26,8 +26,7 @@ const HeroSection: React.FC = () => {
               <span className="text-accent">Athira Dinesh Mangaparambil</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-muted-foreground mb-6">
-              ETL Developer & Aspiring Cybersecurity Analyst | Turning Data Into
-              Actionable Insights
+              ETL Developer & Aspiring Cybersecurity Analyst | Building Scalable Pipelines &amp; Strengthening Digital Security
             </h2>
             <p className="text-lg mb-8 max-w-2xl">
               Experienced in building scalable ETL pipelines, performing data
@@ -71,7 +70,7 @@ const HeroSection: React.FC = () => {
               <div className="absolute inset-2 rounded-full overflow-hidden border-2 border-accent/30">
                 <Avatar className="w-full h-full">
                   <AvatarImage 
-                    src="/lovable-uploads/9eb38033-91d8-4dd6-9bfc-c6d0b0c39964.png" 
+                    src="https://i.postimg.cc/hPb0BVyt/My-photo.jpg" 
                     alt="Athira Dinesh Mangaparambil" 
                     className="object-cover w-full h-full"
                   />
