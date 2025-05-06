@@ -74,7 +74,7 @@ const HeroSection: React.FC = () => {
       </div>
       
       {/* Scroll indicator */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+      <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2">
         <a href="#about" className="flex flex-col items-center text-muted-foreground hover:text-accent transition-colors">
           <span className="text-sm mb-2">Scroll Down</span>
           <ArrowRight className="h-5 w-5 rotate-90" />
