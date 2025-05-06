@@ -66,6 +66,7 @@ const HeroSection: React.FC = () => {
         </div>
         
         {/* Tech icons or decorative elements could go here */}
+       <section className="relative min-h-screen flex flex-col items-center justify-center">
         <div className="mt-16 md:mt-24 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto opacity-70">
           {['ETL', 'Python', 'AWS', 'Security'].map((tech, index) => <div key={index} className="text-center px-4 py-2 rounded-lg bg-background/50 border border-accent/20">
               <span className="text-sm font-medium">{tech}</span>
