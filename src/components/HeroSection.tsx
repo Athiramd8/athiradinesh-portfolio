@@ -81,6 +81,7 @@ const HeroSection: React.FC = () => {
           <ArrowRight className="h-5 w-5 rotate-90" />
         </a>
       </div>
+        </section>
     </section>;
 };
 export default HeroSection;
