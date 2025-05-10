@@ -12,7 +12,7 @@ const ProjectsSection: React.FC = () => {
       title: "Global Sales Interface",
       description:
         "Developed ETL workflows to integrate Oracle/DB2 data into Salesforce for a global sales system.",
-      technologies: ["Oracle", "DB2", "Salesforce", "ETL"]
+      technologies: ["Oracle", "DB2", "Salesforce", "ETL"],
        link: "#",
     },
     {
