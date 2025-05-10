@@ -60,7 +60,7 @@ const ProjectsSection: React.FC = () => {
       description:
         "Conducted security evaluations for CCTV systems, cryptocurrency mixers, and smart grid metering.",
       technologies: ["Security Assessment", "Privacy", "IoT Security"],
-      link: "#",
+      link: "https://github.com/Athiramd8/athiradinesh-portfolio/blob/main/public/40258046_project.pdf",
     },
   ];
 
