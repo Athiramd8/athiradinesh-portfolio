@@ -13,7 +13,7 @@ const ProjectsSection: React.FC = () => {
       description:
         "Developed ETL workflows to integrate Oracle/DB2 data into Salesforce for a global sales system.",
       technologies: ["Oracle", "DB2", "Salesforce", "ETL"]
-      //link: "#",
+       link: "#",
     },
     {
       title: "Data Lake Project",
