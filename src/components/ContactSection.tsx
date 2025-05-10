@@ -17,12 +17,13 @@ const ContactSection: React.FC = () => {
       value: "linkedin.com/in/athira-dinesh",
       link: "https://linkedin.com/in/athira-dinesh",
     },
-    {
+    /*{
       icon: <Phone className="h-5 w-5 text-accent" />,
       title: "Phone",
       value: "+1 438-779-7524",
       link: "tel:+14387797524",
     },
+    */
   ];
 
   return (
