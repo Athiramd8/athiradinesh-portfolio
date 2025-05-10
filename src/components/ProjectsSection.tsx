@@ -37,8 +37,8 @@ const ProjectsSection: React.FC = () => {
       description:
         "Android malware classification system using hybrid machine learning approaches.",
       technologies: ["Python", "Machine Learning", "Android", "Security"],
-      link: "#",
-      github: "#",
+      link: "https://github.com/Athiramd8/athiradinesh-portfolio/blob/main/public/INSE%206540%20Group_3_Presentation_Malicious%20Smart%20App%20Detection.pptx",
+      //github: "#",
     },
     {
       title: "RSA Implementation",
