@@ -53,7 +53,7 @@ const ProjectsSection: React.FC = () => {
       description:
         "Developed risk analysis frameworks using Event/Fault/Decision Trees for cloud security.",
       technologies: ["Risk Analysis", "Cloud Security", "Decision Trees"],
-      link: "#",
+      link: "https://github.com/Athiramd8/athiradinesh-portfolio/blob/main/public/INSE_6320_Project_Report.pdf",
     },
     {
       title: "Security Evaluation Projects",
