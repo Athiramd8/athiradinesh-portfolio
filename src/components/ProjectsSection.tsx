@@ -110,8 +110,8 @@ const ProjectsSection: React.FC = () => {
                       href={project.link}
                       className="text-accent flex items-center gap-1 hover:underline text-sm"
                     >
-                      <FileText className="h-4 w-4" /> View Details
-                      <ArrowUpRight className="h-3 w-3 ml-1" />
+                      <FileText className="h-4 w-4" /> More..
+                     /* <ArrowUpRight className="h-3 w-3 ml-1" /> */
                     </a>
                   </CardFooter>
                 </Card>
